@@ -1,6 +1,7 @@
 package javaWeekOne;
 
 import java.util.Scanner;
+// this is a test for Git 
 
 public class Lab1 {
 	static Scanner scan = new Scanner(System.in);
@@ -40,10 +41,6 @@ public class Lab1 {
 			System.out.println("Do you want to do volume or area or parimiter?");
 			String choice2 = scan.next();
 			if (choice2.substring(0, 1).equals("a")) {
-				// System.out.println("Enter Length");
-				// double length = scan.nextDouble();
-				// System.out.println("Enter Width");
-				// double width = scan.nextDouble();
 
 				double[] area = getNumberArea();
 
